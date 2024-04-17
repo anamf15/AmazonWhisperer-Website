@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sephora</title>
+
+<style>
+/* CSS styles go here */
+
+/* header styles */
+
+/* hero section styles */
+
+.products {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+/* product item styles */
+
+/* footer styles */
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Sephora</h1>
+<nav>
+  <ul>
+    <li><a href="#">Shop</a></li>
+    <li><a href="#">Brands</a></li> 
+    <li><a href="#">What's New</a></li>
+  </ul>
+</nav>
+</header>
+
+<main>
+
+<section class="hero">
+  <h2>Welcome to Sephora</h2>
+  <p>Browse the latest beauty products</p>
+  <button>Shop Now</button>
+</section>
+
+<section class="products">
+  <!-- product items -->
+</section>
+</main>
+
+<footer>
+<p>&copy; Sephora 2023</p>
+</footer>
+
+<script>
+// Product items JavaScript
+const products = /* array of product objects */
+
+products.forEach(product => {
+  const item = document.createElement('div')
+  item.classList.add('product')
+
+  // add product details  
+
+  document.querySelector('.products').appendChild(item)
+})
+</script>
+
+</body>
+</html>
